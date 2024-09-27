@@ -26,7 +26,7 @@ import {
 
 export function About() {
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto pt-4 lg:px-24">
       <AnimatedTitle text="About Me" />
 
       {/* Introduction Section */}
