@@ -1,5 +1,6 @@
 {
-  "name": "daniel-asfaw-portfolio",
+  "homepage": "https://etdan.github.io/portfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "lucide-react": "^0.445.0",
