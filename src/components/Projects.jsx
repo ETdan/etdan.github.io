@@ -67,7 +67,7 @@ export function Projects() {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-gray-800 p-6 rounded-lg shadow-lg"
+            className="bg-lime-600 p-6 rounded-lg shadow-lg"
           >
             <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
             <p className=" mb-4">{project.description}</p>
@@ -75,7 +75,7 @@ export function Projects() {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="px-3 py-1 bg-gray-700 rounded-full text-sm "
+                  className="px-3 py-1 bg-lime-700 rounded-full text-sm "
                 >
                   {tech}
                 </span>

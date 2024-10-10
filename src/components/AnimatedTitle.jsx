@@ -1,3 +1,7 @@
+function mouseElement(e) {
+  return <div className=""></div>;
+}
+
 export function AnimatedTitle({ text }) {
   const getRandomColor = () => {
     const colors = [
@@ -16,7 +20,7 @@ export function AnimatedTitle({ text }) {
   return (
     <h1
       className={
-        "text-5xl md:text-7xl font-bold mb-6 flex flex-wrap justify-center pt-8 pb-8"
+        "text-5xl md:text-7xl font-bold mb-6 flex flex-wrap justify-center pt-8 pb-8 "
       }
     >
       {text.split("").map((char, index) => {
